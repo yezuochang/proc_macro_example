@@ -1,0 +1,10 @@
+[package]
+name = "proc-macro-example"
+version = "0.1.0"
+authors = ["Zuochang Ye"]
+edition = "2021"
+
+[dependencies]
+macro_crate = {path = "./macro_crate"}
+
+[dev-dependencies]
