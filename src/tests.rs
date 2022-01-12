@@ -1,5 +1,5 @@
 use super::testmacro;
 #[test]
-fn test_dump_load() {
+fn test1() {
     testmacro! {1};
 }
